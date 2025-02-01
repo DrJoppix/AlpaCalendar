@@ -19,13 +19,13 @@ export default function Home() {
         key="Go To Dashboard"
         href="/dashboard"
         className="text-2xl font-bold text-pink-950 hover:text-pink-600"
-        >
-        <p className="hidden md:block">{"Go To Dashboard >"}</p>
+      >
+        <p className="">{"Go To Dashboard >"}</p>
       </Link>
       <Image
         src="/staring-alpaca.svg"
-        width={400}
-        height={400}
+        width={250}
+        height={250}
         alt="A happy toon alpaca"
         className="absolute drop-shadow-2xl animate-bounce bottom-0"
       />
