@@ -1,5 +1,9 @@
 import HeaderAlpaca from "@/app/ui/header-alpaca";
 
+/**
+ * The dashboard page render.
+ * 
+ */
 export default function Dashboard() {
     return (
         <main className="flex flex-col h-screen w-screen max-w-screen-sm text-black bg-pink-300">

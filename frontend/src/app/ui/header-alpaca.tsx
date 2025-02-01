@@ -1,5 +1,9 @@
 import Image from 'next/image';
 
+/**
+ * Header component for the dashboard.
+ * Show an alpaca, clouds and flowers.
+ */
 export default function HeaderAlpaca() {
     return (
         <div className="flex-[2] flex justify-center items-end relative overflow-hidden bg-pink-200">
@@ -18,6 +22,11 @@ export default function HeaderAlpaca() {
     );
 }
 
+/**
+ * Render the clouds and flowers on the side.
+ * There are two groups, one on the left, one on the right.
+ * They are mirrored.
+ */
 function sideRenderer() {
     return (
         <>
@@ -31,6 +40,9 @@ function sideRenderer() {
     );
 }
 
+/**
+ * Render the clouds and flowers on the side.
+ */
 function sideImages() {
     return (
         <>
