@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Jersey_25 } from "next/font/google";
 import "./globals.css";
 
-export const jersey = Jersey_25({
+const jersey = Jersey_25({
   weight: "400",
   variable: "--font-jersey",
   subsets: ["latin"],
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body
         className={`${jersey.className} antialiased`}
       >
