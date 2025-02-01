@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="grid grid-rows-7 items-center justify-items-center h-screen p-8 pb-20 gap-16 sm:p-20 text-black">
+    <main className="grid grid-rows-7 items-center justify-items-center h-dvh p-8 pb-20 gap-16 sm:p-20 text-black">
       <h1
         className="text-4xl font-bold"
       >
