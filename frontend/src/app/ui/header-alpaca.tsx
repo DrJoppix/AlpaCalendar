@@ -46,20 +46,20 @@ function sideRenderer() {
 function sideImages() {
     return (
         <>
-            <div className="relative w-20 h-20 right-1/4">
+            <div className="relative w-20 h-20">
                 <Image
                     src="/cloud.svg"
                     layout="fill"
                     objectFit="contain"
-                    className="drop-shadow-2xl"
+                    className="drop-shadow-2xl animate-floating_x"
                     alt="A cloud" />
             </div>
-            <div className="relative w-28 h-28 left-1/4">
+            <div className="relative w-28 h-28">
                 <Image
                     src="/flower.svg"
                     layout="fill"
                     objectFit="contain"
-                    className="drop-shadow-2xl"
+                    className="drop-shadow-2xl animate-wiggle"
                     alt="A flower" />
             </div>
         </>

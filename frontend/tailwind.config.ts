@@ -13,9 +13,13 @@ export default {
         foreground: "var(--foreground)",
       },
       keyframes: {
-        floating: {
+        floating_y: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' }
+        },
+        floating_x: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(-10px)' }
         },
         wiggle: {
           '0%, 100%': { transform: 'rotate(0deg)', 'transform-origin': 'bottom' },
@@ -24,7 +28,8 @@ export default {
         }
       },
       animation: {
-        floating: 'floating 4s ease-in-out infinite',
+        floating_y: 'floating_y 4s ease-in-out infinite',
+        floating_x: 'floating_x 4s ease-in-out infinite',
         wiggle: 'wiggle 2s ease-in-out infinite'
       }
     },
