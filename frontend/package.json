@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "next": "15.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@iconify-icons/fluent": "^1.2.38",
     "@iconify-icons/majesticons": "^1.2.6",
     "@iconify/react": "^5.2.0",
     "@types/node": "^20",
